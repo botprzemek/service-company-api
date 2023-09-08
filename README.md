@@ -19,4 +19,4 @@
 ## Web app
 
 1. Photo upload with service employee, location and date -> POST /photo,
-2. Photo display -> Key in 
+2. Photo display -> JWT
