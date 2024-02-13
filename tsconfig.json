@@ -1,0 +1,22 @@
+{
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "Config": ["./configs/Default.config.ts"],
+      "controllers/*": ["./controllers/*"],
+      "middleware/*": ["./middlewares/*"],
+      "models/*": ["./models/*"],
+      "routes/*": ["./routes/*"],
+      "services/*": ["./services/*"],
+      "utils/*": ["./utils/*"]
+    }
+  },
+  "include": ["./typings/**/*.ts"],
+  "exclude": ["./node_modules"]
+}
